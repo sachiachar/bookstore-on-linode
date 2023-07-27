@@ -16,7 +16,7 @@ module "k8s_ops" {
 
 module "argocd" {
     source  = "app.terraform.io/bookstore/argocd/linode"
-    version = "1.0.6"
+    version = "1.0.7"
     # insert required variables here
 
     kubeconfig = module.k8s_ops.kubeconfig
