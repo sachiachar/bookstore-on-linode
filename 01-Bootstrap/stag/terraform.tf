@@ -14,7 +14,7 @@ terraform {
     organization = "bookstore"
 
     workspaces {
-      name = "Linode-k8s-clusters"
+      name = "bookstore-on-linode"
     }
   }
 }
